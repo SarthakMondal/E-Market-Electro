@@ -2,7 +2,7 @@ import React from 'react';
 import "../Styles/Header.css";
 import Logo from "../Images/logo.png";
 
-import { faBars, faUser, faXmarkSquare, faHomeUser, faHistory, faCartPlus, faRightFromBracket, faUserCircle, faListCheck, faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faUser, faBagShopping faUserPlus, faXmarkSquare, faHomeUser, faHistory, faCartPlus, faRightFromBracket, faUserCircle, faListCheck, faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 import { } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -38,7 +38,9 @@ function Header() {
                     <li><NavLink to="/my-cart" onClick={() => toggleMenu(false)}><FontAwesomeIcon icon={faCartPlus} /> View Cart</NavLink></li>
                     <li><NavLink to="/track-order" onClick={() => toggleMenu(false)}><FontAwesomeIcon icon={faShoppingBasket} /> Track Order</NavLink></li>
                     <li><NavLink to="/order-history" onClick={() => toggleMenu(false)}><FontAwesomeIcon icon={faHistory} /> Order History</NavLink></li>
-                    <li><NavLink to="/login" onClick={() => toggleMenu(false)}><FontAwesomeIcon icon={faRightFromBracket} /> Login & Signup</NavLink></li>
+                    <li><NavLink to="/sign-up" onClick={() => toggleMenu(false)}><FontAwesomeIcon icon={faUserPlus} /> Signup</NavLink></li>
+                    <li><NavLink to="/login" onClick={() => toggleMenu(false)}><FontAwesomeIcon icon={faRightFromBracket} /> Login</NavLink></li>
+                    <li><NavLink to="/place-order" onClick={() => toggleMenu(false)}><FontAwesomeIcon icon={faBagShopping} /> Checkout</NavLink></li>
                     <li><NavLink to="/my-account" onClick={() => toggleMenu(false)}><FontAwesomeIcon icon={faUser} /> My Account</NavLink></li>
                 </ul>
             </nav>
