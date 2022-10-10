@@ -26,7 +26,7 @@ function Signup() {
     age: Yup.number().min(18, 'Age required is 18').max(120, 'Age is not Valid').required('Age is Required'),
     gender: Yup.string().required('Gender is required'),
     address: Yup.string().min(5, 'Address sould be min 5 letters').max(500, 'Address sould be max 500 letters').required('Address is Required'),
-    password: Yup.string().required('Password is Reqired').matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,15})/, 'Must Contain 8 to 15 Characters, One Uppercase, One Lowercase, One Number and One Special Case Character')
+    password: Yup.string().required('Password is Reqired').matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#%&])(?=.{8,15})/, 'Must Contain 8 to 15 Characters, One Uppercase, One Lowercase, One Number and One Special Case Character')
 
   });
 

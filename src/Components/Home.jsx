@@ -48,7 +48,12 @@ function Home() {
 
   //use-effect method to set initial value of testimonial
   useEffect(() => {
-    setItemToShow(customerReviews[0]);
+    setItemToShow({
+      id: 1,
+      name: "Lilly Potter",
+      image: face1,
+      text: "“You should try out. Organizes all the newsletters very neastly. Still in pretty early stage but it's great so far.A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity.”"
+    });
   }, []);
 
   //method to change testimonials
