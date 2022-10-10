@@ -37,7 +37,7 @@ function Order() {
               <div className="track-wrap">
                 <div className="bar-wrap d-flex align-items-center justify-content-center">
                   <div class="progress">
-                    <div class="progress-bar" style={{width: order.deliveryStage == 1 ? "33%" : order.deliveryStage == 2 ? "66%" : "100%"}} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" style={{width: order.deliveryStage === 1 ? "33%" : order.deliveryStage === 2 ? "66%" : "100%"}} role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
                 <div className="index-wrap d-flex align-items-center justify-content-center">
@@ -51,7 +51,7 @@ function Order() {
                       <h6>Out For Delivery</h6>
                     </li>
                     <li className="d-flex flex-column align-items-center justify-content-center">
-                      <div className="crcl" style={{ backgroundColor: order.deliveryStage == 3 ? "var(--primarybg)" : "white" }}>3</div>
+                      <div className="crcl" style={{ backgroundColor: order.deliveryStage === 3 ? "var(--primarybg)" : "white" }}>3</div>
                       <h6>Delivery Completed</h6>
                     </li>
                   </ul>

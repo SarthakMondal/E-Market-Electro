@@ -13,25 +13,25 @@ function Footer() {
                 <div className="col-sm-3">
                     <h3>Download Our Apps</h3>
                     <ul>
-                        <a target="_blank" href="https://play.google.com/"><li><img src={PlayStoreLogo} alt="playstore" /></li></a>
-                        <a target="_blank" href="https://www.apple.com/"><li><img src={AppleLogo} alt="applestore" /></li></a>
+                        <a target="_blank" rel="noreferrer" href="https://play.google.com/"><li><img src={PlayStoreLogo} alt="playstore" /></li></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.apple.com/"><li><img src={AppleLogo} alt="applestore" /></li></a>
                     </ul>
                 </div>
                 <div className="col-sm-3">
                     <h3>Follow Us in Social Media</h3>
                     <ul>
-                        <a target="_blank" href="https://www.facebook.com/"><li>FaceBook</li></a>
-                        <a target="_blank" href="https://www.instagram.com/"><li>Instagram</li></a>
-                        <a target="_blank" href="https://www.twitter.com/"><li>Twitter</li></a>
-                        <a target="_blank" href="https://www.youtube.com/"><li>Youtube</li></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><li>FaceBook</li></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><li>Instagram</li></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.twitter.com/"><li>Twitter</li></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/"><li>Youtube</li></a>
                     </ul>
                 </div>
                 <div className="col-sm-3">
                     <h3>Our Pertnerships</h3>
                     <ul>
-                        <a target="_blank" href="https://www.amazon.com/"><li>Amazon</li></a>
-                        <a target="_blank" href="https://www.paypal.com/in/home"><li>Paypal</li></a>
-                        <a target="_blank" href="https://www.flipkart.com/"><li>Flipkart</li></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.amazon.com/"><li>Amazon</li></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.paypal.com/in/home"><li>Paypal</li></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.flipkart.com/"><li>Flipkart</li></a>
                     </ul>
                 </div>
                 <div className="col-sm-3">

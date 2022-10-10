@@ -144,7 +144,7 @@ function Home() {
       <div className="row" id="wrapper-review">
         <div className="col-sm-5 d-flex justify-content-end">
           <div className="card d-flex justify-content-end">
-            <img src={itemToShow.image} alt="image" />
+            <img src={itemToShow.image} alt="users" />
             <div className="card-body">
               <h3>{itemToShow.name}</h3>
               <p>{itemToShow.text}</p>
