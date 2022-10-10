@@ -1,0 +1,59 @@
+.container-fluid #wrapper-orderhistory {
+    background-color: var(--bodybg);
+    min-height: 80vh;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.container-fluid #wrapper-orderhistory .col-sm-12 {
+    padding-top: 15vh;
+}
+
+.container-fluid #wrapper-orderhistory .col-sm-12 h2{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container-fluid #wrapper-orderhistory .col-sm-12 .orders-wrap{
+    overflow-x: scroll;
+    width: 95%;
+    padding-top: 20px;
+}
+
+.container-fluid #wrapper-orderhistory .col-sm-12 .orders-wrap::-webkit-scrollbar{
+    display: none;
+}
+
+.container-fluid #wrapper-orderhistory .col-sm-12 .orders-wrap table{
+    background-color: var(--layerone);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 900px){
+    .container-fluid #wrapper-orderhistory .col-sm-12 h2{
+        font-size: 25px;
+    }
+
+    .container-fluid #wrapper-orderhistory .col-sm-12 .orders-wrap table{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px){
+    .container-fluid #wrapper-orderhistory .col-sm-12 h2{
+        font-size: 22px;
+    }
+
+    .container-fluid #wrapper-orderhistory .col-sm-12 .orders-wrap table{
+        font-size: 14px;
+    }
+    
+}

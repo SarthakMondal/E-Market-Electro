@@ -1,0 +1,70 @@
+.container-fluid #wrapper-profile{
+    background-color: var(--bodybg);
+    min-height: 80vh;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.container-fluid #wrapper-profile .col-sm-12{
+    padding-top: 15vh;
+}
+
+.container-fluid #wrapper-profile .col-sm-12 .card{
+    width: 25%;
+    height: 500px;
+    background-color: var(--layerone);
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.container-fluid #wrapper-profile .col-sm-12 .card h4{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+.container-fluid #wrapper-profile .col-sm-12 .card h2{
+    color: var(--primarybg);
+    font-size: 55px;
+}
+
+.container-fluid #wrapper-profile .col-sm-12 .card button{
+    margin-top: 20px;
+    width: 155px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+    .container-fluid #wrapper-profile .col-sm-12 .card{
+        width: 55%;
+    }
+
+    .container-fluid #wrapper-profile .col-sm-12{
+        padding-top: 5vh;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px){
+    .container-fluid #wrapper-profile .col-sm-12 .card{
+        width: 95%;
+    }
+
+    .container-fluid #wrapper-profile .col-sm-12{
+        padding-top: 15vh;
+    }
+
+    .container-fluid #wrapper-profile .col-sm-12 .card button{
+        width: 145px;
+        height: 45px;
+    }
+}

@@ -1,0 +1,101 @@
+
+.container-fluid #wrapper-cart {
+    background-color: var(--bodybg);
+    min-height: 80vh;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.container-fluid #wrapper-cart .col-sm-12 {
+    padding-top: 15vh;
+}
+
+.container-fluid #wrapper-cart .col-sm-12 h2{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container-fluid #wrapper-cart .col-sm-12 h2 a{
+    text-decoration: none;
+    color: var(--primarybg);
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.container-fluid #wrapper-cart .col-sm-12 .orders-wrap{
+    overflow-x: scroll;
+    width: 95%;
+    padding-top: 20px;
+}
+
+.container-fluid #wrapper-cart .col-sm-12 .orders-wrap::-webkit-scrollbar{
+    display: none;
+}
+
+.container-fluid #wrapper-cart .col-sm-12 .orders-wrap table{
+    background-color: var(--layerone);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container-fluid #wrapper-cart .col-sm-12 .orders-wrap table tbody img{
+    width: 70px;
+    height: 70px;
+}
+
+.container-fluid #wrapper-cart .col-sm-12 .orders-wrap table tbody input{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.container-fluid #wrapper-cart .col-sm-12 .orders-wrap table tbody button{
+    width: 40px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 900px){
+    .container-fluid #wrapper-cart .col-sm-12 h2{
+        font-size: 25px;
+    }
+
+    .container-fluid #wrapper-cart .col-sm-12 .orders-wrap table{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px){
+    .container-fluid #wrapper-cart .col-sm-12 h2{
+        font-size: 22px;
+    }
+
+    .container-fluid #wrapper-cart .col-sm-12 .orders-wrap table{
+        font-size: 14px;
+    }
+
+    .container-fluid #wrapper-cart .col-sm-12 .orders-wrap table tbody input{
+        height: 35px;
+        width: 35px;
+    }
+    
+    
+    .container-fluid #wrapper-cart .col-sm-12 .orders-wrap table tbody button{
+        width: 35px;
+        height: 35px;
+    }
+    
+}

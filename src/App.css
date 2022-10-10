@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+:root {
+    --navbg: #17181B;
+    --hdrbg: #424242de;
+    --bodybg: #131314;
+    --ftrbg: #1c1c1c;
+    --primarybg: rgb(169, 23, 232);
+    --layerone: rgba(255,255,255,10%);
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+
+button{
+  background-color: var(--primarybg);
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}

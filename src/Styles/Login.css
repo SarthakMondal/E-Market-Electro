@@ -1,0 +1,185 @@
+.container-fluid #wrapper-login {
+    background-color: var(--bodybg);
+    min-height: 80vh;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.container-fluid #wrapper-login .col-sm-12 {
+    padding-top: 15vh;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap {
+    width: 35%;
+    height: auto;
+    background-color: var(--layerone);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap h3 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap p {
+    color: red;
+    text-align: left;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap form {
+    width: 100%;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap form input {
+    width: 90%;
+    height: 35px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    padding-left: 5px;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap form select {
+    width: 90%;
+    height: 35px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    padding-left: 5px;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap form select option{
+    color: var(--primarybg);
+
+}
+
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap form #message {
+    height: 80px;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap form label {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap form button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 45px;
+    width: 155px;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap h2 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap h2 a {
+    text-decoration: none;
+    color: var(--primarybg);
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap .social-login {
+    margin-top: 30px;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap .social-login h3 {
+    text-align: center;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap .social-login .icon-wrap #icons {
+    color: var(--primarybg);
+    font-size: 35px;
+}
+
+.container-fluid #wrapper-login .col-sm-12 .form-wrap .social-login .icon-wrap #icons:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .container-fluid #wrapper-login {
+        padding-bottom: 15vh;
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 {
+        padding-top: 15vh;
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap {
+        width: 60%;
+        padding: 25px;
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap h3 {
+        font-size: 18px;
+    }
+
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap form {
+        width: 100%;
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap form label {
+        font-size: 14px;
+
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap h2 {
+        font-size: 18px;
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap h2 a {
+        font-size: 20px;
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap .social-login .icon-wrap #icons {
+        font-size: 33px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container-fluid #wrapper-login .col-sm-12 {
+        padding-top: 15vh;
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap h2 {
+        font-size: 16px;
+    }
+
+    .container-fluid #wrapper-login .col-sm-12 .form-wrap h2 a {
+        font-size: 18px;
+    }
+}

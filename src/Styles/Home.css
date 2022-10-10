@@ -1,0 +1,477 @@
+.container-fluid #wrapper-landing{
+    background-color: var(--bodybg);
+    min-height: 80vh;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.container-fluid #wrapper-landing .col-sm-7{
+    padding-top: 30vh;
+    padding-left: 40px;
+}
+
+.container-fluid #wrapper-landing .col-sm-7 h1{
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container-fluid #wrapper-landing .col-sm-7 p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.container-fluid #wrapper-landing .col-sm-7 button{
+    width: 175px;
+    height: 55px;
+
+}
+
+.container-fluid #wrapper-landing .col-sm-5{
+    padding-top: 15vh;
+}
+
+.container-fluid #wrapper-landing .col-sm-5 img{
+    width: 80%;
+    height: 350px;
+}
+
+.container-fluid #wrapper-points{
+    background-color: var(--bodybg);
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.container-fluid #wrapper-points .col-sm-12{
+    padding: 25px;
+    padding-top: 50px;
+}
+
+.container-fluid #wrapper-points .col-sm-12 .card{
+    background-color: var(--layerone);
+    width: 250px;
+    height: 270px;
+    text-align: center;
+}
+
+.container-fluid #wrapper-points .col-sm-12 .card #icon{
+    color: var(--primarybg);
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.container-fluid #wrapper-points .col-sm-12 .card h5{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.container-fluid #wrapper-points .col-sm-12 .card p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.container-fluid #wrapper-aboutus{
+    background-color: var(--bodybg);
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.container-fluid #wrapper-aboutus .col-sm-12{
+    padding-top: 25px;
+}
+
+.container-fluid #wrapper-aboutus .col-sm-12 h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container-fluid #wrapper-aboutus .col-sm-12 p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+.container-fluid #wrapper-review{
+    background-color: var(--bodybg);
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 10vh;
+}
+
+.container-fluid #wrapper-review .col-sm-5 .card{
+    background-color: var(--layerone);
+    width: 60%;
+    height: 500px;
+    text-align: center;
+    margin-right: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.container-fluid #wrapper-review .col-sm-5 .card .card-body{
+    position: absolute;
+}
+
+.container-fluid #wrapper-review .col-sm-5 .card .card-body h3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.container-fluid #wrapper-review .col-sm-5 .card .card-body p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: justify;
+}
+
+.container-fluid #wrapper-review .col-sm-5 .card img{
+    width: 100%;
+    height: 100%;
+    filter: opacity(0.65);
+}
+
+.container-fluid #wrapper-review .col-sm-7 h3{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.container-fluid #wrapper-review .col-sm-7 p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container-fluid #wrapper-review .col-sm-7 .scroll-hld{
+    background-color: var(--layerone);
+    width: 80%;
+    height: 370px;
+    margin-top: 20px;
+    overflow: scroll;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.container-fluid #wrapper-review .col-sm-7 .scroll-hld::-webkit-scrollbar{
+    display: none;
+}
+
+.container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms{
+    border: 2px solid var(--layerone);
+    margin-top: 15px;
+    width: 70%;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms:hover{
+    cursor: pointer;
+}
+
+.container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms .img-hld{
+    margin: 10px;
+}
+
+
+.container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms .img-hld img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms .txt-hld{
+    padding-top: 12px;
+}
+
+.container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms .txt-hld h6{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms .txt-hld p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.container-fluid #wrapper-contact{
+    background-color: var(--bodybg);
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.container-fluid #wrapper-contact h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.container-fluid #wrapper-contact p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container-fluid #wrapper-contact .col-sm-6{
+    padding-top: 50px;
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .card{
+    background-color: var(--layerone);
+    width: 60%;
+    height: 550px;
+    padding: 25px;
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .card h6{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .form-wrap{
+    width: 60%;
+    height: 550px;
+    background-color: var(--layerone);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .form-wrap h3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .form-wrap p{
+    color: red;
+    text-align: left;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .form-wrap form{
+    width: 100%;
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .form-wrap form input{
+    width: 90%;
+    height: 35px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    padding-left: 5px;
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .form-wrap form #message{
+    height: 80px;
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .form-wrap form label{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+.container-fluid #wrapper-contact .col-sm-6 .form-wrap form button{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    height: 55px;
+    width: 165px;
+}
+
+
+@media only screen and (max-width: 900px){
+    .container-fluid #wrapper-landing{
+        min-height: 50vh;
+    }
+    .container-fluid #wrapper-landing .col-sm-7{
+        padding-top: 20vh;
+    }
+    .container-fluid #wrapper-landing .col-sm-5 img{
+        width: 95%;
+    }
+
+    .container-fluid #wrapper-landing .col-sm-7 h1{
+        font-size: 48px;
+    }
+    
+    .container-fluid #wrapper-landing .col-sm-7 p{
+        font-size: 16px;
+    }
+    
+    .container-fluid #wrapper-aboutus .col-sm-12 h2{
+        font-size: 28px;
+    }
+    
+    .container-fluid #wrapper-aboutus .col-sm-12 p{
+        font-size: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .container-fluid #wrapper-review .col-sm-5 .card{
+        width: 90%;
+        margin-right: 5px;
+    }
+    
+    .container-fluid #wrapper-review .col-sm-7 .scroll-hld{
+        width: 90%;
+    }
+    
+    .container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms{
+        width: 90%;
+    }
+
+    .container-fluid #wrapper-review .col-sm-5 .card .card-body h3{
+        font-size: 18px;
+    }
+    
+    .container-fluid #wrapper-review .col-sm-5 .card .card-body p{
+        font-size: 14px;
+    }
+
+    .container-fluid #wrapper-contact .col-sm-6 .card{
+        width: 100%;
+        height: 550px;
+    }
+    
+    .container-fluid #wrapper-contact .col-sm-6 .card h6{
+        font-size: 14px;
+    }
+    
+    .container-fluid #wrapper-contact .col-sm-6 .form-wrap{
+        width: 100%;
+        height: 550px;
+    }
+
+    .container-fluid #wrapper-contact h2{
+        font-size: 26px;
+        padding-top: 7vh;
+    }
+
+    .container-fluid #wrapper-contact .col-sm-6{
+        padding-top: 30px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 480px){
+    .container-fluid #wrapper-landing .col-sm-7{
+        padding-left: 25px;
+    }
+
+    .container-fluid #wrapper-landing .col-sm-7 h1{
+        font-size: 42px;
+    }
+    
+    .container-fluid #wrapper-landing .col-sm-7 p{
+        font-size: 14px;
+    }
+
+    .container-fluid #wrapper-landing .col-sm-7 button{
+        width: 165px;
+        height: 50px;
+    }
+
+    .container-fluid #wrapper-aboutus .col-sm-12 h2{
+        font-size: 26px;
+    }
+    
+    .container-fluid #wrapper-aboutus .col-sm-12 p{
+        font-size: 14px;
+        padding-left: 7px;
+        padding-right: 7px;
+        line-height: 24px;
+    }
+
+    .container-fluid #wrapper-review .col-sm-5 .card{
+        width: 100%;
+        height: 350px;
+        margin-right: 0;
+    }
+
+    .container-fluid #wrapper-review .col-sm-7 .scroll-hld{
+        width: 100%;
+    }
+    
+    .container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms{
+        width: 90%;
+    }
+
+    .container-fluid #wrapper-review .col-sm-7{
+        margin-top: 20px;
+    }
+
+    .container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms .txt-hld h6{
+        font-size: 14px;
+    }
+    
+    .container-fluid #wrapper-review .col-sm-7 .scroll-hld .list-itms .txt-hld p{
+        font-size: 14px;
+    }
+    
+    .container-fluid #wrapper-review .col-sm-5 .card .card-body h3{
+        font-size: 18px;
+    }
+    
+    .container-fluid #wrapper-review .col-sm-5 .card .card-body p{
+        font-size: 14px;
+    }
+
+    .container-fluid #wrapper-contact h2{
+        font-size: 24px;
+    }
+
+    .container-fluid #wrapper-contact p{
+        font-size: 15px;
+    }
+
+    .container-fluid #wrapper-contact .col-sm-6 .card{
+        height: 570px;
+    }
+    .container-fluid #wrapper-contact .col-sm-6{
+        padding-top: 10px;
+    }
+
+    .container-fluid #wrapper-contact .col-sm-6 .form-wrap form button{
+        height: 50px;
+    }
+    
+    
+}
